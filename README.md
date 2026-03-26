@@ -69,9 +69,7 @@ The processor consists of the following components:
 ---
 
 ## 🧪 Simulation Waveform
-<img width="1450" height="880" alt="image" src="https://github.com/user-attachments/assets/7c962b9e-0685-4e0f-aa9f-e986652a374e" />
-
-
+<img width="1442" height="881" alt="image" src="https://github.com/user-attachments/assets/5223247f-cf5a-4121-bf45-0644da6d02aa" />
 
 
 ### 🔧 Steps to Run
