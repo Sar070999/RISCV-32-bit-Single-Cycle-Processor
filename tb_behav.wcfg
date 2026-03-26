@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="709.501 ns"></ZoomEndTime>
+      <Cursor1Time time="400.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="166"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">Program Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/PC/PCNext" type="array">
+         <obj_property name="ElementShortName">PCNext[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCNext[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/PC/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/PC/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/PC/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group95" type="group">
+      <obj_property name="label">Instruction memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/Ins_mem/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/Ins_mem/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/Ins_mem/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/Ins_mem/mem" type="array">
+         <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group100" type="group">
+      <obj_property name="label">Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/R_file/A1" type="array">
+         <obj_property name="ElementShortName">A1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/A2" type="array">
+         <obj_property name="ElementShortName">A2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/A3" type="array">
+         <obj_property name="ElementShortName">A3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/WE3" type="logic">
+         <obj_property name="ElementShortName">WE3</obj_property>
+         <obj_property name="ObjectShortName">WE3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/WD3" type="array">
+         <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/RD1" type="array">
+         <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/RD2" type="array">
+         <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/R_file/Register" type="array">
+         <obj_property name="ElementShortName">Register[31:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">Register[31:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group111" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/ALU/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/ALUcontrol" type="array">
+         <obj_property name="ElementShortName">ALUcontrol[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUcontrol[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/Result" type="array">
+         <obj_property name="ElementShortName">Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/V" type="logic">
+         <obj_property name="ElementShortName">V</obj_property>
+         <obj_property name="ObjectShortName">V</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/C" type="logic">
+         <obj_property name="ElementShortName">C</obj_property>
+         <obj_property name="ObjectShortName">C</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/N" type="logic">
+         <obj_property name="ElementShortName">N</obj_property>
+         <obj_property name="ObjectShortName">N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/Z" type="logic">
+         <obj_property name="ElementShortName">Z</obj_property>
+         <obj_property name="ObjectShortName">Z</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/AorB" type="array">
+         <obj_property name="ElementShortName">AorB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AorB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/AandB" type="array">
+         <obj_property name="ElementShortName">AandB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AandB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/notB" type="array">
+         <obj_property name="ElementShortName">notB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">notB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/mux_1" type="array">
+         <obj_property name="ElementShortName">mux_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/sum" type="array">
+         <obj_property name="ElementShortName">sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/Cout" type="logic">
+         <obj_property name="ElementShortName">Cout</obj_property>
+         <obj_property name="ObjectShortName">Cout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/slt" type="array">
+         <obj_property name="ElementShortName">slt[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slt[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/ALU/mux_2" type="array">
+         <obj_property name="ElementShortName">mux_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_2[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group128" type="group">
+      <obj_property name="label">Control Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/CUT/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/funct7" type="array">
+         <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+         <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/funct3" type="array">
+         <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/PCSrc" type="logic">
+         <obj_property name="ElementShortName">PCSrc</obj_property>
+         <obj_property name="ObjectShortName">PCSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/ResultSrc" type="logic">
+         <obj_property name="ElementShortName">ResultSrc</obj_property>
+         <obj_property name="ObjectShortName">ResultSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/ImmSrc" type="array">
+         <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/ALUcontrol" type="array">
+         <obj_property name="ElementShortName">ALUcontrol[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUcontrol[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/CUT/ALUopcode" type="array">
+         <obj_property name="ElementShortName">ALUopcode[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUopcode[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group141" type="group">
+      <obj_property name="label">Data memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/tb/DM/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/DM/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/DM/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/DM/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/DM/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb/DM/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

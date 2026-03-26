@@ -33,7 +33,7 @@ initial begin
   rst =0;
 #100  rst=1;
 
-#400 $finish;
+#300 $finish;
 
 
 end
