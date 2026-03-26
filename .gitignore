@@ -1,0 +1,51 @@
+ 
+# ========================
+# Vivado auto-generated files
+# ========================
+
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+
+# ========================
+# Vivado project directories
+# ========================
+
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+.xil/
+
+# ========================
+# IP & synthesis outputs
+# ========================
+
+*.dcp
+*.bit
+*.bin
+
+# ========================
+# Temporary / backup files
+# ========================
+
+*~
+*.bak
+*.tmp
+
+# ========================
+# OS-specific files
+# ========================
+
+.DS_Store
+Thumbs.db
+
+# ========================
+# Optional: ignore project file (if using Tcl flow)
+# ========================
+
+# *.xpr
